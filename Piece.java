@@ -197,10 +197,6 @@ public class Piece {
 	 just returns null.
 	*/	
 	public Piece fastRotation() {
-		getPieces();
-		for(int i=0;i<pieces.length;i++) {
-			if(this.equals(pieces[i]));
-		}
 		return next;
 	}
 	
